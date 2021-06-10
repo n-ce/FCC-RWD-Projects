@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Technical Documentation Page</title>
+</head>
+<style type="text/css" media="all">
+  #R{background-color: Red}
+  #G{background-color: Green}
+  #B{background-color: Blue}
+  #Y{background-color: Yellow}
+  #P{background-color: pink}
+  li{
+    list-style-type:none;
+    height:1rem;
+  }
+  a{text-decoration: none;}
+  header{
+    font-size: 3rem;
+    margin-left: 1rem;
+  }
+  code{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  p{font-size: 1.5rem;}
+  section{margin-bottom: 5rem;}
+  nav{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    float:left;
+    width:20%;
+    flex-direction: column;
+  }
+  a{font-size: 1rem;
+    color:white;
+    margin-top: 2rem;
+  }
+  main{
+  float:left;
+  width:80%;
+  margin-left: 20vw;
+  }
+  #logo{
+    transform:rotate(-90deg);
+    background: -webkit-linear-gradient(-15deg,red,orange,yellow,lime,skyblue,pink,blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top:3.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  @media screen and (prefers-color-scheme:dark){
+  body{
+    background-color: black;
+    color:white;
+  }
+    
+  }
+</style>
+<body>
+  
+  <nav id="navbar">
+    <header id="logo">COLORS</header>
+    <a href="#Red" class="nav-link">Red</a>
+    <a href="#Green" class="nav-link">Green</a>
+    <a href="#Blue" class="nav-link">Blue</a>
+    <a href="#Yellow" class="nav-link">Yellow</a>
+    <a href="#Pink" class="nav-link">Pink</a>
+  </nav>
+  <br>
+  <br>
+  <br>
+  <main id="main-doc">
+    <section class="main-section" id="Red">
+      <header id="Red">Red</header>
+      <p>The sunset is Red.</p>
+      <p>Red color has the highest wavelength.</p>
+      <code>#FF0000</code>
+      <li id="R"></li>
+    </section>
+    <section class="main-section" id="Green">
+      <header id="Green">Green</header>
+      <p>Leaves are green in color.</p>
+      <p>There exists a green kawasaki ninja.</p>
+      <code>#00FF00</code>
+      <li id="G"></li>
+    </section>
+    <section class="main-section" id="Blue">
+      <header id="Blue">Blue</header>
+      <p>The sky is blue.</p>
+      <p>Chlorine looks blue.</p>
+      <code>#0000FF</code>
+      <li id="B"></li>
+    </section>
+    <section class="main-section" id="Yellow">
+      <header id="Yellow">Yellow</header>
+      <p>The Sun looks yellow from Earth.</p>
+      <p>Bulbs used to be yellow.</p>
+      <code>#FFFF00</code>
+      <li id="Y"></li>
+    </section>
+    <section class="main-section" id="Pink">
+      <header id="Pink">Pink</header>
+      <p>Pinks are usually associated with feminine aura.</p>
+      <p>Pink is the cutest color.</p>
+      <code>#FF00FF</code>
+      <li id="P"></li>
+    </section>
+  </main>
+</body>
+
+</html>
