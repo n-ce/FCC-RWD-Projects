@@ -1,0 +1,19 @@
+body{
+  display:grid;
+  grid-template-columns:auto auto;
+}
+a{
+  display:flex;
+  justify-content:center;
+  height:5rem;
+  width:5rem;
+  opacity:50%;
+  background-color:cornflowerblue;
+  box-shadow:0 0 1rem cornflowerblue;
+  border-radius:1rem;
+  margin:1rem;
+  color:transparent;
+}
+@media (orientation:landscape){
+  body{display:flex}
+}
