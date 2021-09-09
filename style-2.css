@@ -1,6 +1,6 @@
 body{
-  display:grid;
-  grid-template-columns:auto auto;
+  display:flex;
+  flex-direction: column;
 }
 a{
   display:flex;
@@ -15,5 +15,5 @@ a{
   color:transparent;
 }
 @media (orientation:landscape){
-  body{display:flex}
+  body{flex-direction:row}
 }
