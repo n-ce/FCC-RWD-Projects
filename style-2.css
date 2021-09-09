@@ -14,6 +14,13 @@ a{
   margin:1rem;
   color:transparent;
 }
+a:nth-of-type(1){background-image:url("https://img.icons8.com/material/96/000000/rich-text-converter.png")}
+a:nth-of-type(2){background-image:url('')}
+a:nth-of-type(3){background-image:url('')}
+a:nth-of-type(4){background-image:url('')}
+a:nth-of-type(5){background-image:url('')}
+a:nth-of-type(6){background-image:url('')}
+
 @media (orientation:landscape){
   body{flex-direction:row}
   a{height:5rem;width:5rem;}
