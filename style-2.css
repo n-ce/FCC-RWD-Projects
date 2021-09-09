@@ -5,8 +5,8 @@ body{
 a{
   display:flex;
   justify-content:center;
-  height:5rem;
-  width:5rem;
+  height:10rem;
+  width:10rem;
   opacity:50%;
   background-color:cornflowerblue;
   box-shadow:0 0 1rem cornflowerblue;
@@ -16,4 +16,5 @@ a{
 }
 @media (orientation:landscape){
   body{flex-direction:row}
+  a{height:5rem;width:5rem;}
 }
